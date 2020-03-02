@@ -1,0 +1,8 @@
+D:\semester4\Stima\tuves2\StimaTB2\test2\test2\bin\Debug\test2.dll
+D:\semester4\Stima\tuves2\StimaTB2\test2\test2\bin\Debug\test2.pdb
+D:\semester4\Stima\tuves2\StimaTB2\test2\test2\bin\Debug\Microsoft.Msagl.dll
+D:\semester4\Stima\tuves2\StimaTB2\test2\test2\bin\Debug\Microsoft.Msagl.xml
+D:\semester4\Stima\tuves2\StimaTB2\test2\test2\obj\Debug\test2.csprojAssemblyReference.cache
+D:\semester4\Stima\tuves2\StimaTB2\test2\test2\obj\Debug\test2.csproj.CopyComplete
+D:\semester4\Stima\tuves2\StimaTB2\test2\test2\obj\Debug\test2.dll
+D:\semester4\Stima\tuves2\StimaTB2\test2\test2\obj\Debug\test2.pdb
