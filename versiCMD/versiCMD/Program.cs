@@ -11,7 +11,6 @@ namespace versiCMD
             City c2 = new City("Jakarta", 4000, 3);
             c.printCity();
             c2.printCity();
-            Console.WriteLine(c.Name);
         }
     }
 }
