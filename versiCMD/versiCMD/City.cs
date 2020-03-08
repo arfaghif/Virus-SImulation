@@ -2,8 +2,14 @@
 
 namespace versiCMD
 {
+	static class Constant
+	{
+		public const double euler = Math.E;
+		public const double gamma = 0.25;
+	}
 	public class City
 	{
+
 		private readonly string nama;
 		private readonly int populasi;
 		private string status;
@@ -50,6 +56,14 @@ namespace versiCMD
 					}
             }
         }
+		public int Populasi
+		{
+			get
+			{
+				return populasi;
+			}
+		}
+
 
 		public City(string nm, int pop)
 		{
@@ -70,6 +84,9 @@ namespace versiCMD
 			Console.WriteLine(status);
         }
 		
-		
+		public double hitungI(int hari_awal, int hari_akhir)
+		{
+			return populasi / (1 + ((populasi - 1) * Math.Pow(Constant.euler, -1 * Constant.gamma * (hari_akhir - hari_awal))));
+		}
 	}
 }
