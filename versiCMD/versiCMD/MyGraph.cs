@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -16,12 +16,17 @@ namespace versiCMD
 			List<PairOfCity> pairOfCities = new List<PairOfCity>();
 			foreach(PairOfCity pairOfCity in edges)
 			{
-				if(a == pairOfCity.CityA)
+				if(a == pairOfCity.CityA /*&& !PairOfCity.Cek*/)
 				{
 					pairOfCities.Add(pairOfCity);
+					//pairOfCity.Cek=true;
 				}
 			}
 			return pairOfCities;
+		}
+		public void run(int T, City A)
+		{
+			//
 		}
 	}
 }
