@@ -1,0 +1,10 @@
+D:\semester4\Stima\tuves2\versiCMD\versiCMD\bin\Debug\netcoreapp3.1\versiCMD.exe
+D:\semester4\Stima\tuves2\versiCMD\versiCMD\bin\Debug\netcoreapp3.1\versiCMD.deps.json
+D:\semester4\Stima\tuves2\versiCMD\versiCMD\bin\Debug\netcoreapp3.1\versiCMD.runtimeconfig.json
+D:\semester4\Stima\tuves2\versiCMD\versiCMD\bin\Debug\netcoreapp3.1\versiCMD.runtimeconfig.dev.json
+D:\semester4\Stima\tuves2\versiCMD\versiCMD\bin\Debug\netcoreapp3.1\versiCMD.dll
+D:\semester4\Stima\tuves2\versiCMD\versiCMD\bin\Debug\netcoreapp3.1\versiCMD.pdb
+D:\semester4\Stima\tuves2\versiCMD\versiCMD\obj\Debug\netcoreapp3.1\versiCMD.AssemblyInfoInputs.cache
+D:\semester4\Stima\tuves2\versiCMD\versiCMD\obj\Debug\netcoreapp3.1\versiCMD.AssemblyInfo.cs
+D:\semester4\Stima\tuves2\versiCMD\versiCMD\obj\Debug\netcoreapp3.1\versiCMD.dll
+D:\semester4\Stima\tuves2\versiCMD\versiCMD\obj\Debug\netcoreapp3.1\versiCMD.pdb
