@@ -8,3 +8,4 @@ D:\semester4\Stima\tuves2\versiCMD\versiCMD\obj\Debug\netcoreapp3.1\versiCMD.Ass
 D:\semester4\Stima\tuves2\versiCMD\versiCMD\obj\Debug\netcoreapp3.1\versiCMD.AssemblyInfo.cs
 D:\semester4\Stima\tuves2\versiCMD\versiCMD\obj\Debug\netcoreapp3.1\versiCMD.dll
 D:\semester4\Stima\tuves2\versiCMD\versiCMD\obj\Debug\netcoreapp3.1\versiCMD.pdb
+D:\semester4\Stima\tuves2\versiCMD\versiCMD\obj\Debug\netcoreapp3.1\versiCMD.csprojAssemblyReference.cache
