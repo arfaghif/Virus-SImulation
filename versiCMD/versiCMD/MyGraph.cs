@@ -43,9 +43,11 @@ namespace versiCMD
 					{
 						pairOfCities = cariEdgeA(pairOfCity.CityB);
 						foreach (PairOfCity edgeCityB in pairOfCities)
-						{
-							antrian.Enqueue(edgeCityB);
-							edgeCityB.CityB.Status = 1;
+						{	if (edgeCityB.CityB.Status != 3)
+							{
+								antrian.Enqueue(edgeCityB);
+								edgeCityB.CityB.Status = 1;
+							}
 						}
 					}
 				}

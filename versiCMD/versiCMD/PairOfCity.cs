@@ -50,15 +50,15 @@ namespace versiCMD
 		{
 			if (hitungSAB(hari_awal,hari_akhir) > 1)
 			{
-				double a= ((Math.Log((cityA.Populasi * TrAB - 1) / (cityA.Populasi - 1), Constant.euler) * -1 / Constant.gamma) + hari_awal) + 1;
-				int i;
+				return ((int)Math.Floor((Math.Log(((cityA.Populasi * TrAB) - 1) / (cityA.Populasi - 1), Constant.euler) * -1 / Constant.gamma) + hari_awal)) + 1;
+/*				int i;
 				for(i=1; i<=Math.Floor(a) + 1 ; i++){
 					if (i>a){
 						break;
 					}
-				}
+				}*/
 				//cityB.hariTerinfeksi=i+cityA.hariTerinfeksi;
-				return i;
+				/*return i;*/
 			}
 			else
 			{
