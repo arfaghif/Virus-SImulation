@@ -75,6 +75,13 @@ namespace versiCMD
 				return populasi;
 			}
 		}
+		public string Nama
+		{
+			get
+			{
+				return nama;
+			}
+		}
 
 
 		public City(string nm, int pop)

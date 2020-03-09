@@ -6,7 +6,7 @@ namespace versiCMD
 	{
 		private readonly City cityA;
 		private readonly City cityB;
-		private readonly int TrAB;
+		private readonly double TrAB;
 		//private bool cek;
 		/*public bool Cek
 		 *{
