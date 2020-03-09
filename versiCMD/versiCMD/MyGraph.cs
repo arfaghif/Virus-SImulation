@@ -38,12 +38,14 @@ namespace versiCMD
 				if (kapan != 0)
 				{
 					pairOfCity.CityB.hariTerinfeksi = kapan;
+					pairOfCity.CityB.Status = 3;
 					if (kapan < hari)
 					{
 						pairOfCities = cariEdgeA(pairOfCity.CityB);
 						foreach (PairOfCity edgeCityB in pairOfCities)
 						{
-							antrian.Enqueue(pairOfCity);
+							antrian.Enqueue(edgeCityB);
+							edgeCityB.CityB.Status = 1;
 						}
 					}
 				}
