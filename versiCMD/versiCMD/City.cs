@@ -12,19 +12,19 @@ namespace versiCMD
 
 		private readonly string nama;
 		private readonly int populasi;
-		//private int hari_terinfeksi;
+		private int hari_terinfeksi;
 		private string status;
-		/*public int hariTerinfeksi
+		public int hariTerinfeksi
 		{
 			set
 			{
-				hari_terinfeksi=value;
+				hari_terinfeksi = value;
 			}
 			get
 			{
 				return hari_terinfeksi;
 			}
-		}*/
+		}
 		public int Status
         {
 			get
@@ -82,14 +82,14 @@ namespace versiCMD
 			nama = nm;
 			populasi = pop;
 			status = "Belum diidentifikasi";
-			//hari_terinfeksi=0;
+			hari_terinfeksi=0;
 		}
 		public City(string nm, int pop, int stat) 
 		{
 			nama = nm;
 			populasi = pop;
 			Status = stat;
-			//hari_terinfeksi=0;
+			hari_terinfeksi=0;
 		}
 		public void printCity()
         {

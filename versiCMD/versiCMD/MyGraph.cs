@@ -7,10 +7,12 @@ namespace versiCMD
 	public class MyGraph
 	{
 		private readonly List<City> nodes;
-		private readonly List<PairOfCity> edges;
+		private readonly List<PairOfCity>  edges;
 		private Queue<PairOfCity> antrian;
+		
 		public MyGraph()
 		{
+			//
 		}
 		public List<PairOfCity> cariEdgeA(City a) {
 			List<PairOfCity> pairOfCities = new List<PairOfCity>();
@@ -24,9 +26,28 @@ namespace versiCMD
 			}
 			return pairOfCities;
 		}
-		public void run(int T, City A)
+		public void run(int hari)
 		{
-			//
+			List<PairOfCity> pairOfCities;
+			PairOfCity pairOfCity;
+			while (antrian.Count > 0)
+			{
+
+				pairOfCity = antrian.Dequeue();
+				int kapan = pairOfCity.kapanterinfeksi(pairOfCity.CityA.hariTerinfeksi, hari);
+				if (kapan != 0)
+				{
+					pairOfCity.CityB.hariTerinfeksi = kapan;
+					if (kapan < hari)
+					{
+						pairOfCities = cariEdgeA(pairOfCity.CityB);
+						foreach (PairOfCity edgeCityB in pairOfCities)
+						{
+							antrian.Enqueue(pairOfCity);
+						}
+					}
+				}
+			}
 		}
 	}
 }

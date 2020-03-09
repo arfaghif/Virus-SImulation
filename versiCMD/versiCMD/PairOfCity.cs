@@ -27,6 +27,13 @@ namespace versiCMD
 				return cityA;
 			}
 		}
+		public City CityB
+		{
+			get
+			{
+				return cityB;
+			}
+		}
 		public PairOfCity(City a, City b, int tr)
 		{
 			cityA = a;
@@ -36,7 +43,7 @@ namespace versiCMD
 		}
 		public double hitungSAB(int hari_awal, int hari_akhir)
 		{
-			return cityA.hitungI(hari_awal, hari_akhir) * TrAB;
+			return CityA.hitungI(hari_awal, hari_akhir) * TrAB;
 		}
 
 		public int kapanterinfeksi(int hari_awal, int hari_akhir)
