@@ -6,11 +6,16 @@ namespace versiCMD
     {
         static void Main(string[] args)
         {
+            fileDirectory.populationFile = @"C:\Users\Aufa Fadhlurohman\StimaTB2\versiCMD\versiCMD\config\populationConfig.txt";
+            fileDirectory.relationFile = @"C:\Users\Aufa Fadhlurohman\StimaTB2\versiCMD\versiCMD\config\relationConfig.txt";
             Console.WriteLine("Hello World!");
-            City c = new City("Bandung", 2000);
-            City c2 = new City("Jakarta", 4000, 3);
-            c.printCity();
-            c2.printCity();
+            Config set = new Config();
+            MyGraph prosesGraph = new MyGraph(set);
+            foreach (City kota in prosesGraph.nodes)
+            {
+                kota.printCity();
+            }
         }
     }
 }
+

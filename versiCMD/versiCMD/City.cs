@@ -26,7 +26,7 @@ namespace versiCMD
 			}
 		}
 		public int Status
-        {
+		{
 			get
 			{
 				switch (status)
@@ -45,29 +45,29 @@ namespace versiCMD
 						break;
 				}
 			}
-            
+
 			set
-            {
-					if (value >= 0 && value <= 3)
+			{
+				if (value >= 0 && value <= 3)
+				{
+					switch (value)
 					{
-						switch (value)
-						{
-							case 0:
-								status = "Belum diidentifikasi";
-								break;
-							case 1:
-								status = "Sedang diidentifikasi";
-								break;
-							case 2:
-								status = "Tidak Terinfeksi";
-								break;
-							case 3:
-								status = "Terinfeksi";
-								break;
-						}
+						case 0:
+							status = "Belum diidentifikasi";
+							break;
+						case 1:
+							status = "Sedang diidentifikasi";
+							break;
+						case 2:
+							status = "Tidak Terinfeksi";
+							break;
+						case 3:
+							status = "Terinfeksi";
+							break;
 					}
-            }
-        }
+				}
+			}
+		}
 		public int Populasi
 		{
 			get
@@ -83,28 +83,32 @@ namespace versiCMD
 			}
 		}
 
+		public City()
+		{
+
+		}
 
 		public City(string nm, int pop)
 		{
 			nama = nm;
 			populasi = pop;
 			status = "Belum diidentifikasi";
-			hari_terinfeksi=0;
+			hari_terinfeksi = 0;
 		}
-		public City(string nm, int pop, int stat) 
+		public City(string nm, int pop, int stat)
 		{
 			nama = nm;
 			populasi = pop;
 			Status = stat;
-			hari_terinfeksi=0;
+			hari_terinfeksi = 0;
 		}
 		public void printCity()
-        {
+		{
 			Console.WriteLine(nama);
 			Console.WriteLine(populasi);
 			Console.WriteLine(status);
-        }
-		
+		}
+
 		public double hitungI(int hari_awal, int hari_akhir)
 		{
 			return populasi / (1 + ((populasi - 1) * Math.Pow(Constant.euler, -1 * Constant.gamma * (hari_akhir - hari_awal))));

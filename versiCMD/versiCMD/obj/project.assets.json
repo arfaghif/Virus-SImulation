@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\asus\\.nuget\\packages\\": {}
+    "C:\\Users\\Aufa Fadhlurohman\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\semester4\\Stima\\tuves2\\StimaTB2\\versiCMD\\versiCMD\\versiCMD.csproj",
+      "projectUniqueName": "C:\\Users\\Aufa Fadhlurohman\\ThisDay\\StimaTB2\\versiCMD\\versiCMD\\versiCMD.csproj",
       "projectName": "versiCMD",
-      "projectPath": "D:\\semester4\\Stima\\tuves2\\StimaTB2\\versiCMD\\versiCMD\\versiCMD.csproj",
-      "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-      "outputPath": "D:\\semester4\\Stima\\tuves2\\StimaTB2\\versiCMD\\versiCMD\\obj\\",
+      "projectPath": "C:\\Users\\Aufa Fadhlurohman\\ThisDay\\StimaTB2\\versiCMD\\versiCMD\\versiCMD.csproj",
+      "packagesPath": "C:\\Users\\Aufa Fadhlurohman\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aufa Fadhlurohman\\ThisDay\\StimaTB2\\versiCMD\\versiCMD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Aufa Fadhlurohman\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\asus\\Downloads": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

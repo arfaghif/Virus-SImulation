@@ -20,3 +20,14 @@ D:\semester4\Stima\tuves2\StimaTB2\versiCMD\versiCMD\bin\Debug\netcoreapp3.1\ver
 D:\semester4\Stima\tuves2\StimaTB2\versiCMD\versiCMD\bin\Debug\netcoreapp3.1\versiCMD.runtimeconfig.dev.json
 D:\semester4\Stima\tuves2\StimaTB2\versiCMD\versiCMD\bin\Debug\netcoreapp3.1\versiCMD.dll
 D:\semester4\Stima\tuves2\StimaTB2\versiCMD\versiCMD\bin\Debug\netcoreapp3.1\versiCMD.pdb
+C:\Users\Aufa Fadhlurohman\ThisDay\StimaTB2\versiCMD\versiCMD\bin\Debug\netcoreapp3.1\versiCMD.exe
+C:\Users\Aufa Fadhlurohman\ThisDay\StimaTB2\versiCMD\versiCMD\bin\Debug\netcoreapp3.1\versiCMD.deps.json
+C:\Users\Aufa Fadhlurohman\ThisDay\StimaTB2\versiCMD\versiCMD\bin\Debug\netcoreapp3.1\versiCMD.runtimeconfig.json
+C:\Users\Aufa Fadhlurohman\ThisDay\StimaTB2\versiCMD\versiCMD\bin\Debug\netcoreapp3.1\versiCMD.runtimeconfig.dev.json
+C:\Users\Aufa Fadhlurohman\ThisDay\StimaTB2\versiCMD\versiCMD\bin\Debug\netcoreapp3.1\versiCMD.dll
+C:\Users\Aufa Fadhlurohman\ThisDay\StimaTB2\versiCMD\versiCMD\bin\Debug\netcoreapp3.1\versiCMD.pdb
+C:\Users\Aufa Fadhlurohman\ThisDay\StimaTB2\versiCMD\versiCMD\obj\Debug\netcoreapp3.1\versiCMD.csprojAssemblyReference.cache
+C:\Users\Aufa Fadhlurohman\ThisDay\StimaTB2\versiCMD\versiCMD\obj\Debug\netcoreapp3.1\versiCMD.AssemblyInfoInputs.cache
+C:\Users\Aufa Fadhlurohman\ThisDay\StimaTB2\versiCMD\versiCMD\obj\Debug\netcoreapp3.1\versiCMD.AssemblyInfo.cs
+C:\Users\Aufa Fadhlurohman\ThisDay\StimaTB2\versiCMD\versiCMD\obj\Debug\netcoreapp3.1\versiCMD.dll
+C:\Users\Aufa Fadhlurohman\ThisDay\StimaTB2\versiCMD\versiCMD\obj\Debug\netcoreapp3.1\versiCMD.pdb
