@@ -93,7 +93,7 @@ namespace versiCMD
 			nama = nm;
 			populasi = pop;
 			status = "Belum diidentifikasi";
-			hari_terinfeksi = 0;
+			hari_terinfeksi = int.MaxValue;
 		}
 		public City(string nm, int pop, int stat)
 		{
